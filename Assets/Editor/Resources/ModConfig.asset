@@ -14,12 +14,9 @@ MonoBehaviour:
   id: 3DTapCodeModule
   title: 3D Tap Code
   author: Quinn Wuest
-  description: 'Since when are blank modules blue?
-
-
-    Manual by Timwi
-
-    Developed by Quinn Wuest'
+  description: "Since when are blank modules blue?\r\n\r\nManual by Timwi\r\nDeveloped
+    by Quinn Wuest\r\n\r\n[url=https://ktane.timwi.de/HTML/3D%20Tap%20Code.html]Manual
+    HTML[/url]\r\n[url=https://ktane.timwi.de/PDF/3D%20Tap%20Code.pdf]Manual PDF[/url]"
   version: 1.0
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 41572f9fe0678bb4888b047a62104c10, type: 3}

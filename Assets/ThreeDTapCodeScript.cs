@@ -57,7 +57,7 @@ public class ThreeDTapCodeScript : MonoBehaviour
     private int[] _chosenTapCode;
 
     private bool _tapCodeActive;
-    private List<int> _tapCodeInput = new List<int>();
+    private readonly List<int> _tapCodeInput = new List<int>();
     private Coroutine _waitingToInput;
     private int[] _solutionTapCode;
 
@@ -120,6 +120,8 @@ public class ThreeDTapCodeScript : MonoBehaviour
             return false;
         if (_timer != null)
             StopCoroutine(_timer);
+        if (_playTapCode != null)
+            StopCoroutine(_playTapCode);
         _timer = StartCoroutine(Timer());
         return false;
     }
